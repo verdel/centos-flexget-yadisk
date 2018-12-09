@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+cd $FLEXGET_SYNC_DIR
+/usr/sbin/reflex -g '*.*' /usr/sbin/sync.sh

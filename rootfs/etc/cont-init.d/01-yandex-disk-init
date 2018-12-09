@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+# Generate token
+yandex-disk token --password $YANDEX_PASSWORD $YANDEX_USER
